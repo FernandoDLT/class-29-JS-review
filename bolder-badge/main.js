@@ -55,3 +55,20 @@ function lawlessLeague(partySize) {
 // lawlessLeague(3)
 
 lawlessLeague(['bulbasaur', 'caterpie', 'weedle']) // With .length after partySize
+
+function yell(word){
+    // return word
+}
+// console.log(yell('Hello!'))
+// yell("Hello!")
+
+// Loop - For
+for (let i = 1; i < 5;i++){
+    // console.log(i)
+}
+
+
+// Array Iteration: Iterates through an array, passing in the value and the index of each element
+let bestColors = ['green','blue','yellow','black']
+bestColors.forEach((i) => console.log(i))
+console.log(bestColors.length)
